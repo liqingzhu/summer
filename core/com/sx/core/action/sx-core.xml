@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd"> 
+<struts>	
+	<package name="coreaction" extends="struts-default" namespace="/back/jsp/core">
+		<interceptors> 
+		    <!--日志拦截器--> 
+			<interceptor name="loginfoInteception" class="loginfoInteception" />
+			<!-- 定义一个拦截器栈 --> 
+			<interceptor-stack name="sxStack"> 
+			 	<!--默认拦截器--> 
+			 	<!-- 注意两个interceptor-ref的顺序, 顺序不同, 执行效果也不同: 先配置的先执行/后配置的先退出(先进后出) -->
+				<interceptor-ref name="defaultStack"/> 
+				<interceptor-ref name="loginfoInteception"/>  
+			</interceptor-stack> 
+		</interceptors> 
+		<default-interceptor-ref name="sxStack" /> 
+		<!-- 跳转到错误页面 -->
+		<!-- <global-results>
+			<result name="exception">/500error.jsp</result>
+			</global-results>
+			 -->
+		<global-exception-mappings>
+			<exception-mapping result="exception" exception="java.lang.Exception">
+			</exception-mapping>
+		</global-exception-mappings>
+		<!-- 所有jsp页面都必须引用这些文件信息 
+		<action name="includelibs" class="coreAction" method="includeLibs">
+			<result name="includelibs">includelibs.jsp</result>
+		</action>-->
+		<!-- 上传CKeditor的图片 
+		<action name="uploadfileimage" class="coreAction" method="uploadFileImage"/>
+		-->
+	</package>
+</struts>

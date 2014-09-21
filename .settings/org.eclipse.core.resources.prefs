@@ -1,0 +1,9 @@
+#Sat Aug 02 08:16:39 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/assets=utf-8
+encoding//WebRoot/assets/frame/ext/ext-lang-zh_CN.js=UTF-8
+encoding//btccoin/com/sx/btccoin/entity/ByteCoinTradeEntity.java=UTF-8
+encoding//btccoin/com/sx/btccoin/okcoin/entity/OKCoinMarketDepthEntity.java=utf-8
+encoding//src/com/sx/config/log4j.properties=utf-8
+encoding//src/com/sx/timer/AutoRemainder.java=UTF-8
+encoding/<project>=utf-8

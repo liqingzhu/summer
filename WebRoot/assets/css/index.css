@@ -1,0 +1,114 @@
+ .tip-target {
+    width: 100px;
+    text-align:center;
+    padding: 5px 0;
+    border:1px dotted #99bbe8;
+    background:#dfe8f6;
+    color: #15428b;
+    cursor:default;
+    margin:10px;
+    font:bold 11px tahoma,arial,sans-serif;
+    float:left;
+}
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:250px;
+    z-index:20000;
+}
+.container,.container*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:100%;
+	background:white;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}.slider{
+	position:absolute;
+	margin:0;
+	padding:0;
+	width:100%;
+}.newLi{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline;
+}.newLia{
+	text-decoration:none;
+	color:blue;
+}.newLia:hover{
+	color:#25e3fa;
+}.newsdisplay{
+	height:292px;
+	padding:4px;
+}.newsdisplayImg{
+	height:292px;
+	width:50%;
+	float:left;
+	border:none;
+	display:block;
+}.newsdisplayDiv{
+	overflow:hidden;
+	height:292px;
+	width:50%;
+	border:none;
+	float:right;
+}.newsdisplayDivh2{
+	font-size:24px;
+}.newsdisplayDivp{
+	line-height:24px;
+	padding-left:15px;
+}.num{
+	position:absolute;
+	left:20px;
+	bottom:5px;
+}.numli{
+	float:left;
+	color:#FF7300;
+	text-align:center;
+	line-height:16px;
+	width:16px;
+	height:16px;
+	font-family:Arial;
+	font-size:12px;
+	cursor:pointer;
+	overflow:hidden;
+	margin:3px1px;
+	border:1pxsolid#FF7300;
+	background-color:#fff;
+}.numli.on{
+	color:#fff;
+	line-height:21px;
+	width:21px;
+	height:21px;
+	font-size:16px;
+	margin:01px;
+	border:0;
+	background-color:#FF7300;
+	font-weight:bold;
+}.noticeDisplayDive{
+	background:white;
+	height:286px;
+	overflow:hidden;
+}.noticeItem{
+	height:286px;
+	overflow:hidden;
+}.noticeSubject{
+	font-size:24px;
+	width:100%;
+	color:blue;
+}.noticesubSubject{
+	color:blue;
+}.noticeContent{
+	padding:10px;
+	color:blue;
+}#rollText{
+	height:286px;
+	width:100%;
+	overflow:hidden;
+	color:blue;
+}

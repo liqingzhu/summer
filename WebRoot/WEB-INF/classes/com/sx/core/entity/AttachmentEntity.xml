@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.cms.dao.IAttachmentDao">
+  <!-- 新增附件与LandLog关联信息 -->
+  <insert id="addAttachmentandLandLogCascade" parameterType="java.util.HashMap">
+  	<![CDATA[insert into ts_cms_files_landoperation (la_f_id,la_l_id) values (#{fid},#{lid})]]>
+  </insert>
+  <!-- 新增文章与附件关联信息 -->
+  <insert id="addAttachmentByArticleId" parameterType="articleandattachment">
+  	<![CDATA[insert into sx_cms_article_files(af_a_id,af_f_id) values (#{aid},#{fid})]]>
+  </insert>
+  <!-- 删除文章与附件关联信息 -->
+  <delete id="deleteAttachmentByArticleIdAndFileId" parameterType="articleandattachment">
+  	<![CDATA[delete from sx_cms_article_files where af_a_id = #{aid} and af_f_id=#{fid}]]>
+  </delete>
+  <!-- 删除附件数据信息 -->
+  <delete id="deleteAttachment" parameterType="attachment">
+  	<![CDATA[delete from sys_files where f_id = #{fid}]]>
+  </delete>
+  <!-- 新增数据信息 -->
+  <insert id="addAttachment"  parameterType="attachment" useGeneratedKeys="true" keyProperty="fid">
+  	<![CDATA[
+	INSERT INTO sys_files (f_displayname, f_valuename, f_valuepath, 
+	f_userid, f_type, f_shortname, f_note) values 
+	 (#{fdisplayname}, #{fvaluename}, #{fvaluepath},#{fuserid}, #{ftype}, #{fshortname}, #{fnote}) 
+  	]]>
+  </insert>
+  <!-- 获取数据信息 -->
+  <resultMap id="findAttachmentResult" type="attachment">
+  	<result column="f_id" property="fid"/>
+  	<result column="f_id" property="id"/>
+  	<result column="f_displayname" property="fdisplayname"/>
+  	<result column="f_valuename" property="fvaluename"/>
+  	<result column="f_valuepath" property="fvaluepath"/>
+  	<result column="f_date" property="fdate"/>
+  	<result column="f_userid" property="fuserid"/>
+  	<result column="f_type" property="ftype"/>
+  	<result column="f_shortname" property="fshortname"/>
+  	<result column="f_note" property="fnote"/>
+  </resultMap>
+  <!-- 按照条件查询数据信息 -->
+  <sql id="selectAttachmentsAndCondiction">
+  	<if test="fid != null and fid != ''">
+  		<![CDATA[and f_id = #{fid}]]>
+  	</if>
+	<if test="fdisplayname != null and fdisplayname != ''">
+  		<![CDATA[and f_displayname like concat('%',#{fdisplayname},'%')]]>
+  	</if>
+  	<if test = "fvaluename != null and fvaluename != ''">
+  		<![CDATA[and f_valuename like concat('%',#{fvaluename},'%')]]>
+  	</if>
+  	<if test = "fvaluepath != null and fvaluepath != ''">
+  		<![CDATA[and f_valuepath = #{fvaluepath}]]>
+  	</if>
+  	<if test = "fdate != null and fdate !=''">
+  		<![CDATA[and f_date = #{fdate}]]>
+  	</if>
+  	<if test="fuserid != null and fuserid != ''">
+  		<![CDATA[and f_userid = #{fuserid}]]>
+  	</if>
+  	<if test="ftype != null and ftype != ''">
+  		<![CDATA[and f_type = #{ftype}]]>
+  	</if>
+  	<if test="fshortname != null and fshortname != ''">
+  		<![CDATA[and f_shortname = #{fshortname}]]>
+  	</if>
+  	<if test="fnote != null and fnote != ''">
+  		<![CDATA[and f_note = #{fnote}]]>
+  	</if>
+  </sql>
+  <!-- 排序SQL -->
+  <sql id="orderAttachmentSql">
+  	<if test="sort =='date'">
+  		<![CDATA[f_date desc]]>
+  	</if>
+  	<if test="sort =='displayname'">
+  		<![CDATA[f_displayname desc]]>
+  	</if>
+  </sql>
+  <!-- 查询附件信息与地块表进行关联 -->
+  <select id="findAttachmentForLand" parameterType="java.lang.Integer" resultMap="findAttachmentResult">
+  	<![CDATA[
+  		select * from view_ts_landinfo_attachments where lf_l_id = #{lid}
+  	]]>
+  </select>
+  <!-- 查询附件信息与地块表进行关联后的数据总数信息 -->
+  <select id="findAttachmentForLandCount" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+  	<![CDATA[
+  		select count(*) from view_ts_landinfo_attachments where lf_l_id = #{lid}
+  	]]>
+  </select>
+  <!-- 查询附件信息 -->
+  <select id="findAttachmentsInfo" parameterType="attachment" resultMap="findAttachmentResult">
+  	<![CDATA[select * from sys_files]]>
+  	<where>
+  		<include refid="selectAttachmentsAndCondiction"/>
+  	</where>
+  		<include refid="orderAttachmentSql"/>
+  </select>
+  <!-- 查询附件信息数据类型 -->
+  <select id="findAttachmentsInfoCount" parameterType="attachment" resultType="java.lang.String">
+  	<![CDATA[select count(*) as countinfo from sys_files]]>
+  	<where>
+  		<include refid="selectAttachmentsAndCondiction"/>
+  	</where>
+  </select>
+</mapper>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.btccoin.dao.IBtcDao">
+  <!-- 查询日志信息 -->
+  <resultMap type="tle" id="tleMap">
+  	<result column="t_id" property="id"/>
+  	<result column="t_marketid" property="marketid"/>
+  	<result column="t_price" property="price"/>
+  	<result column="t_qty" property="qty"/>
+  	<result column="t_method" property="method"/>
+  	<result column="t_status" property="status"/>
+  	<result column="t_response" property="response"/>
+  	<result column="t_tradetype" property="tradetype"/>
+  	<result column="t_tradeid" property="tradeid"/>
+  	<result column="t_note" property="note"/>
+  	<result column="ts" property="ds"/>
+  </resultMap>  
+  <select id="findTradeLogEntity" parameterType="tle" resultMap="tleMap">
+  	<![CDATA[
+		select t_id,t_marketid,t_price,t_qty
+				t_method,t_status,t_response,t_tradetype
+				t_tradeid,t_note,ts
+ 		from sx_btc_trade_log
+ 		 
+	]]>
+    <trim prefix="where" prefixOverrides="and |or ">  
+        
+         <if test="tradeid != null">  
+            	<![CDATA[ and t_tradeid = #{tradeid} ]]> 
+         </if>  
+         <if test="status != null ">  
+            	<![CDATA[ and t_status = #{status}  ]]>
+         </if>  
+        
+    </trim>  
+  </select>
+  <!-- 获取可以执行的交易数据 -->
+  <resultMap type="bctm" id="btctradeMap">
+  	<result column="t_id" property="id"/>
+  </resultMap>
+  <!-- 获取Account信息 -->  
+  <resultMap type="bctdr" id="bctdrMap">
+  	<result column="t_id" property="id"/>
+  	<result column="t_marketid" property="marketid"/>
+  	<result column="t_price" property="price"/>
+  	<result column="t_qty" property="qty"/>
+  	<result column="t_usprice" property="usprice"/>
+  	<result column="t_type" property="type"/>
+  	<result column="t_markettradeid" property="tradeid"/>
+  </resultMap>
+  <!-- 插入交易日志 -->
+  <insert id="addBtcTradeLog" parameterType="tle" useGeneratedKeys="true" keyProperty="id">
+  	<![CDATA[insert into sx_btc_trade_log(
+  			t_marketid,t_price,t_qty,
+			t_method,t_status,t_response,
+			t_tradetype,t_tradeid,t_note) values(
+				#{marketid},#{price},#{qty},
+				#{method},#{status},#{response},
+				#{tradetype},#{tradeid},#{note}
+			)
+	]]>
+  </insert>
+  <!-- 查询信息交易信息byid -->
+  <select id="findBtcCoinTradeMarketById" parameterType="bctm" resultMap="btctradeMap">
+  	<![CDATA[select * from sx_btc_trade_market where t_id = #{id}]]>
+  </select>
+  <!-- 更新状态 -->
+  <update id="updateBtcCoinTradeMarket" parameterType="bctm" >
+  	<![CDATA[update sx_btc_trade_market set t_status = #{status} where t_id = #{id}]]>
+  </update>
+  
+  <!-- 查询信息交易信息 -->
+  <select id="findBtcCoinTradeMarket" parameterType="bctm" resultMap="btctradeMap">
+  	<![CDATA[select * from sx_btc_trade_market]]>
+  </select>
+  <!-- 获取Account SQL语句 -->
+  <select id="findBtcCoinTradeDepthRec" parameterType="bctdr" resultMap="bctdrMap">
+  	<![CDATA[
+		select * from sx_btc_trade_depthrec
+	]]>
+	<where>
+		<if test="type != null">
+		  	<![CDATA[and t_type = #{type}]]>
+		</if>
+		<if test="tradeid != null and tradeid != ''">
+		  	<![CDATA[and t_markettradeid = #{tradeid}]]>
+		</if>
+	</where>
+   </select>
+  <insert id="addBtcCoinTradeDepthRec" parameterType="bctdr"
+	useGeneratedKeys="true" keyProperty="id">
+  	<![CDATA[
+  		insert into sx_btc_trade_depthrec 
+  		(
+  		  t_marketid,t_price,t_qty,
+  		  t_usprice,t_type,ts,t_markettradeid
+  		) values (
+  		   #{marketid},#{price},#{qty},
+  		   #{usprice},#{type},now(),#{tradeid}
+  		)
+  	]]>
+  </insert>
+  <insert id="addBtcCoinTradeMarket" parameterType="bctm" useGeneratedKeys="true" keyProperty="id">
+  	<![CDATA[
+  		insert into sx_btc_trade_market(
+			t_sellmarketid,	t_sellprice,	t_sellqty,	t_sellusprice,	t_selltradestatus,
+			t_buymarketid,	t_buyprice,	t_buyqty,	t_buyusprice,	t_buytradestatus,
+			t_status,	t_tradeid,	t_tradeqty,	ts,	t_cancelstatus,	version
+  		) values (
+  			#{sellmarketid},#{sellprice},#{sellqty},#{sellusprice},#{selltradestatus},
+  			#{buymarketid},#{buyprice},#{buyqty},#{buyusprice},#{buytradestatus},
+  			#{status},#{tradeid},#{tradeqty},now(),#{cancelstatus},#{version}
+  		)
+  	]]>
+  </insert>
+</mapper>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.core.dao.IReminderDao" >
+ <resultMap type="reminder" id="findReminderResultMap">
+  	<result column="r_id" property="id"/>
+  	<result column="r_title" property="title"/>
+  	<result column="r_content" property="content"/>
+  	<result column="r_sendaddress" property="sendaddress"/>
+  	<result column="r_filetemplatepath" property="filetemplatepath"/>
+  	<result column="r_status" property="status"/>
+  	<result column="r_toaddress" property="toaddress"/>
+  	<result column="r_appendtime" property="appendtime"/>
+  	<result column="r_sendtime" property="sendtime"/>
+  	<result column="r_edittime" property="edittime"/>
+  	<result column="r_mapstring" property="mapstring"/>
+  </resultMap>
+  <!-- 新增提醒信息 -->
+  <insert id="addReminderInfo" parameterType="reminder" keyProperty="id" useGeneratedKeys="true">
+  	<![CDATA[insert into sx_reminders(r_appendtime]]>
+  	<trim prefix="," prefixOverrides=",">
+  		<if test="title != null and title !=''">
+  			<![CDATA[,r_title]]>
+  		</if>
+  		<if test="content != null and content !=''">
+  			<![CDATA[,r_content]]>
+  		</if>
+  		<if test="sendaddress != null and sendaddress !=''">
+  			<![CDATA[,r_sendaddress]]>
+  		</if>
+  		<if test="filetemplatepath != null and filetemplatepath !=''">
+  			<![CDATA[,r_filetemplatepath]]>
+  		</if>
+  		<if test="status != null and status !=''">
+  			<![CDATA[,r_status]]>
+  		</if>
+  		<if test="toaddress != null and toaddress !=''">
+  			<![CDATA[,r_toaddress]]>
+  		</if>
+  		<if test="mapstring != null and mapstring != ''">
+  			<![CDATA[,r_mapstring]]>
+  		</if>
+  	</trim>
+  	<![CDATA[) values (now()]]>
+	 <trim prefix="," prefixOverrides=",">
+  		<if test="title != null and title !=''">
+  			<![CDATA[,#{title}]]>
+  		</if>
+  		<if test="content != null and content !=''">
+  			<![CDATA[,#{content}]]>
+  		</if>
+  		<if test="sendaddress != null and sendaddress !=''">
+  			<![CDATA[,#{sendaddress}]]>
+  		</if>
+  		<if test="filetemplatepath != null and filetemplatepath !=''">
+  			<![CDATA[,#{filetemplatepath}]]>
+  		</if>
+  		<if test="status != null and status !=''">
+  			<![CDATA[,#{status}]]>
+  		</if>
+  		<if test="toaddress != null and toaddress !=''">
+  			<![CDATA[,#{toaddress}]]>
+  		</if>
+  		<if test="mapstring != null and mapstring !=''">
+  			<![CDATA[,#{mapstring}]]>
+  		</if>
+  	</trim>
+	<![CDATA[)]]>
+  </insert>
+  <sql id="findReminderInfoSQLWithAndCondiction">
+  	<if test="id != null and id != ''" ><![CDATA[r_id = #{id}]]></if>
+  	<if test="title != null and title != ''" ><![CDATA[r_title=#{title}]]></if>
+  	<if test="content != null and content !=''" ><![CDATA[r_content like concat('%',#{content},'%')]]></if>
+  	<if test="sendaddress != null and sendaddress !=''" ><![CDATA[r_sendaddress=#{sendaddress}]]></if>
+  	<if test="filetemplatepath != null and filetemplatepath !=''" ><![CDATA[r_filetemplatepath=#{filetemplatepath}]]></if>
+  	<if test="(status != null and status !='') or status == 0" ><![CDATA[r_status=#{status}]]></if>
+  	<if test="toaddress != null and toaddress !=''" ><![CDATA[r_toaddress=#{toaddress}]]></if>
+  	<if test="appendtime != null and appendtime !=''" ><![CDATA[r_appendtime=#{appendtime}]]></if>
+  	<if test="sendtime != null and sendtime !=''" ><![CDATA[r_sendtime=#{sendtime}]]></if>
+  	<if test="edittime != null and edittime != ''" ><![CDATA[r_edittime=#{edittime}]]></if>
+  </sql>
+  <!-- 查询SQL语句 -->
+  <select id="findReminderInfos" parameterType="reminder" resultMap="findReminderResultMap">
+  	<![CDATA[
+			select
+				r_id,
+				r_title,
+				r_content,
+				r_sendaddress,
+				r_filetemplatepath,
+				r_status,
+				r_toaddress,
+				r_appendtime,
+				r_sendtime,
+				r_edittime,
+				r_mapstring
+			from 
+				sx_reminders 
+	]]>
+	<where>
+		<include refid="findReminderInfoSQLWithAndCondiction"/>
+	</where>
+	<![CDATA[order by r_id desc]]>
+	<trim prefix="limit">
+		<if test="start != null and start !=''">
+			<![CDATA[#{start},#{limit}]]>
+		</if>
+	</trim>
+   </select>
+   <!-- 修改 -->
+   <update id="updateReminderInfo" parameterType="reminder">
+   	<![CDATA[update sx_reminders ]]>
+   		<trim prefix="set" suffixOverrides=",">
+   			<if test="title !=null and title !=''">
+   				<![CDATA[r_title = #{title},]]>
+   			</if>
+   			<if test="content != null and content !=''">
+   				<![CDATA[r_content = #{content},]]>
+   			</if>
+   			<if test="sendaddress != null and sendaddress !=''">
+   				<![CDATA[r_sendaddress = #{sendaddress},]]>
+   			</if>
+   			<if test="filetemplatepath != null and filetemplatepath !=''">
+   			 <![CDATA[r_filetemplatepath = #{filetemplatepath},]]>
+   			</if>
+   			<if test="status !=null and status !=''">
+   			 <![CDATA[r_status = #{status},]]>
+   			</if>
+   			<if test="toaddress != null and toaddress !=''">
+   			  <![CDATA[r_toaddress = #{toaddress},]]>
+   			</if>
+   			<if test="appendtime != null and appendtime != ''">
+   			  <![CDATA[r_appendtime = #{appendtime},]]>		
+   			</if>
+   			<if test="sendtime != null and sendtime != ''">
+   			  <![CDATA[r_sendtime = #{sendtime},]]>
+   			</if>
+   			<if test="edittime != null and edittime != ''">
+   			  <![CDATA[r_edittime = #{edittime},]]>
+   			</if>
+   		</trim>
+  	<![CDATA[where r_id = #{id}]]>
+   </update>
+   <!-- 删除 -->
+   <delete id="deleteReminderInfo" parameterType="reminder">
+   	<![CDATA[delete from sx_reminders where r_id in concat("(",#{id},")")]]>
+   </delete>
+</mapper>

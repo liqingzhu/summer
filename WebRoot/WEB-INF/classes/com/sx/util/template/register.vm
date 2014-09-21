@@ -1,0 +1,6 @@
+${username}，您好，欢迎注册<a href="http://www.tiesuohh.com.cn/sx/front/ts/index.jsp" target="_blank">铁锁用户</a>！ 
+<a href="http://www.tiesuohh.com.cn/sx/activeuser.jspx?u=${uid}&email=${email}" target="_blank">点击我</a>
+可以激活用户信息<br/>
+若点击没有生效,也可以直接复制此地址至
+http://www.tiesuohh.com.cn/sx/activeuser.jspx?u=${uid}&email=${email}
+浏览器地址栏中进行用户激活

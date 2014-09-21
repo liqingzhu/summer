@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.util.message.IMessageDao">
+	<resultMap type="emailMessageEntity" id="findMessagesResult">
+			<result column="r_id" property="id"/>
+		  	<result column="r_title" property="title"/>
+		  	<result column="r_content" property="content"/>
+		  	<result column="r_sendaddress" property="sendaddress"/>
+		  	<result column="r_filetemplatepath" property="filetemplatepath"/>
+		  	<result column="r_status" property="status"/>
+		  	<result column="r_toaddress" property="toaddress"/>
+		  	<result column="r_appendtime" property="appendtime"/>
+		  	<result column="r_sendtime" property="sendtime"/>
+		  	<result column="r_edittime" property="edittime"/>
+		  	<result column="r_mapstring" property="mapstring"/>
+	</resultMap>
+	<sql id="findReminderInfoAndCondition">
+		<trim prefix="WHERE" prefixOverrides="AND|OR">  
+        	<if test="title != null and title != '' ">  
+	            <![CDATA[r_title = #{title}]]>
+	        </if>  
+	        <if test="content != null and content != '' ">  
+	            <![CDATA[and r_content = #{content}]]>
+	        </if>  
+	        <if test="sendaddress != null and sendaddress != ''">  
+	            <![CDATA[and r_sendaddress = #{sendaddress}]]>
+	        </if>  
+	        <if test="filetemplatepath != null and filetemplatepath !='' ">  
+	            <![CDATA[and r_filetemplatepath = #{filetemplatepath}]]>  
+	        </if>  
+	        <if test="status != null and status != '' ">  
+	            <![CDATA[and r_status = #{status}]]>
+	        </if>  
+	        <if test="toaddress != null and toaddress != '' ">  
+	           <![CDATA[and r_toaddress = #{toaddress}]]>
+	        </if>  
+	        <if test="appendtime!=null and appendtime != '' ">
+  				<![CDATA[and r_appendtime = #{appendtime}]]>
+  			</if>
+  			<if test="sendtime!= null and sendtime != '' ">
+  				<![CDATA[and r_sendtime = #{sendtime}]]>
+  			</if>
+  			<if test="edittime != null and edittime != '' ">
+  				<![CDATA[and r_edittime = #{edittime}]]>
+  			</if>
+    	</trim>   
+	</sql>
+ 	<select id="findMessageInfo" resultMap="findMessagesResult" parameterType="emailMessageEntity">
+ 		<![CDATA[
+ 			select
+				r_id,
+				r_title,
+				r_content,
+				r_sendaddress,
+				r_filetemplatepath,
+				r_status,
+				r_toaddress,
+				r_appendtime,
+				r_sendtime,
+				r_edittime,
+				r_mapstring
+			from 
+				sx_reminders 
+ 		]]>
+ 	</select>
+ 	<update id="updateMessageInfo" parameterType="emailMessageEntity">
+ 		<![CDATA[update sx_reminders ]]>
+ 			<set>  
+		        <if test="title != null and title != '' ">  
+		            <![CDATA[r_title = #{title}]]>
+		        </if>  
+		        <if test="content != null and content != '' ">  
+		            <![CDATA[r_content = #{content}]]>
+		        </if>  
+		        <if test="sendaddress != null ">  
+		            <![CDATA[r_sendaddress = #{sendaddress}]]>
+		        </if>  
+		        <if test="filetemplatepath != null ">  
+		            <![CDATA[r_filetemplatepath = #{filetemplatepath}]]>  
+		        </if>  
+		        <if test="status != '' ">  
+		            <![CDATA[r_status = #{status}]]>
+		        </if>  
+		        <if test="toaddress != '' ">  
+		           <![CDATA[r_toaddress = #{toaddress}]]>
+		        </if>  
+		        <if test="appendtime != '' ">
+	  				<![CDATA[r_appendtime = #{appendtime}]]>
+	  			</if>
+	  			<if test="sendtime != '' ">
+	  				<![CDATA[r_sendtime = #{sendtime}]]>
+	  			</if>
+	  			<if test="edittime != '' ">
+	  				<![CDATA[r_edittime = #{edittime}]]>
+	  			</if>
+		    </set>  
+  		<![CDATA[where r_id = #id#]]>
+ 	</update>
+</mapper>

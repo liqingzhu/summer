@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:aop="http://www.springframework.org/schema/aop"  
+    xmlns:tx="http://www.springframework.org/schema/tx"  
+    xsi:schemaLocation="  
+            http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+            http://www.springframework.org/schema/context  
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+            http://www.springframework.org/schema/tx  
+            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd  
+            http://www.springframework.org/schema/aop  
+            http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">  
+    <!-- 配置使用注解 -->  
+    <context:annotation-config />
+    <context:component-scan base-package="com.sx" />
+   <!--
+   	因为Structs2和Spring的xml文件加载顺序问题
+    所以只能将拦截器实列化配置到spring的xml文件中
+    拦截器使用的是AOP的貌似,
+    1. 因此在使用拦截器时,将loginfoInterceptor配置注释后
+    再将 sx-core.xml文件下面的拦截器配置注释，这样做才能取消拦截器功能 
+    2. 另外一种是在 拦截器类名上方这样配置 按照bean名字进行注入
+    @Component
+	@Scope("prototype") -->  
+    <bean id="loginfoInterceptor" class="com.sx.core.interceptor.LoginfoForHTTPInterceptor" scope="prototype"></bean>
+	
+</beans>

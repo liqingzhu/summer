@@ -1,0 +1,194 @@
+.clock_stop {
+    background-image: url("../../../frame/ext/ui/icon/clock_stop.png") !important;
+}
+.clock_red {
+    background-image: url("../../../frame/ext/ui/icon/clock_red.png") !important;
+}
+.clock_pause {
+    background-image: url("../../../frame/ext/ui/icon/clock_pause.png") !important;
+}
+.lightning_go{
+    background-image: url("../../../frame/ext/ui/icon/lightning_go.png") !important;
+}
+.lightning_delete{
+    background-image: url("../../../frame/ext/ui/icon/lightning_delete.png") !important;
+}
+.clock_play {
+    background-image: url("../../../frame/ext/ui/icon/clock_play.png") !important;
+}
+.cog_edit {
+    background-image: url("../../../frame/ext/ui/icon/cog_edit.png") !important;
+}
+.money {
+    background-image: url("../../../frame/ext/ui/icon/money.png") !important;
+}
+.money_add {
+    background-image: url("../../../frame/ext/ui/icon/money_add.png") !important;
+}
+.money_dollar {
+    background-image: url("../../../frame/ext/ui/icon/money_dollar.png") !important;
+}
+.money_euro {
+    background-image: url("../../../frame/ext/ui/icon/money_euro.png") !important;
+}
+.money_pound {
+    background-image: url("../../../frame/ext/ui/icon/money_pound.png") !important;
+}
+.money_yen {
+    background-image: url("../../../frame/ext/ui/icon/money_yen.png") !important;
+}
+.btc {
+    background-image: url("../../../frame/ext/ui/icon/btc.png") !important;
+}
+.photo_add {
+    background-image: url("../../../frame/ext/ui/icon/photo_add.png") !important;
+}
+.photo_delete {
+    background-image: url("../../../frame/ext/ui/icon/photo_delete.png") !important;
+}
+.photo_link {
+    background-image: url("../../../frame/ext/ui/icon/photo_link.png") !important;
+}
+.photos {
+    background-image: url("../../../frame/ext/ui/icon/photos.png") !important;
+}
+.photo {
+    background-image: url("../../../frame/ext/ui/icon/photo.png") !important;
+}
+.connect {
+    background-image: url("../../../frame/ext/ui/icon/connect.png") !important;
+}
+.suppliers {
+    background-image: url("../../../frame/ext/ui/icon/suppliers.png") !important;
+}
+.summary {
+    background-image: url("../../../frame/ext/ui/icon/details.gif") !important;
+}
+.x-action-col-cell img.usereditpng {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/user_edit.png);
+}
+.land_add{background-image: url(../../../frame/ext/ui/icon/shape_square_add.png) !important;}
+.land_edit{background-image: url(../../../frame/ext/ui/icon/shape_square_edit.png) !important;}
+.x-action-col-cell img.landedit {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/shape_square_edit.png);
+}
+.land_delete{background-image: url(../../../frame/ext/ui/icon/shape_square_delete.png) !important;}
+.x-action-col-cell img.landdelete {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/shape_square_delete.png);
+}
+.land_info{background-image: url(../../../frame/ext/ui/icon/shape_square.png) !important;}
+.flag_add {background-image: url(../../../frame/ext/ui/icon/flag_add.gif) !important;}
+.flag_edit {background-image: url(../../../frame/ext/ui/icon/flag_edit.gif) !important;}
+.building_add {background-image: url(../../../frame/ext/ui/icon/building_add.png) !important;}
+.building_edit{background-image: url(../../../frame/ext/ui/icon/building_edit.png) !important;}
+.user_add {background-image: url(../../../frame/ext/ui/icon/user_add.png) !important;}
+.user_editpng {background-image: url(../../../frame/ext/ui/icon/user_edit.png) !important;}
+.log {background-image: url(../../../frame/ext/ui/icon/log.png) !important;}
+.x-action-col-cell img.log {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/log.png);
+}
+.house {background-image: url(../../../frame/ext/ui/icon/house.png) !important;}
+.x-action-col-cell img.house {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/house.png);
+}
+.cancel {background-image: url(../../../frame/ext/ui/icon/cancel.png) !important;}
+.x-action-col-cell img.cancel {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/cancel.png);
+}
+.confirm {background-image: url(../../../frame/ext/ui/icon/confirm.png) !important;}
+.x-action-col-cell img.confirm {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/confirm.png);
+}
+.application {background-image: url(../../../frame/ext/ui/icon/application.png) !important;}
+.tab {background-image: url(../../../frame/ext/ui/icon/tab.png) !important;}
+.tab_delete {background-image: url(../../../frame/ext/ui/icon/tab_delete.png) !important;}
+.tab_add {background-image: url(../../../frame/ext/ui/icon/tab_add.png) !important;}
+.tab_edit {background-image: url(../../../frame/ext/ui/icon/tab_edit.png) !important;}
+.x-action-col-cell img.tab_edit-col {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/tab_edit.png);
+}
+.x-action-col-cell img.tab_delete-col {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/tab_delete.png);
+}
+.upload-icon {
+    background: url('../../../frame/ext/ui/icon/picture.png') no-repeat 0 0 !important;
+}
+.picture {background-image: url(../../../frame/ext/ui/icon/picture.png) !important;}
+.attach {background-image: url(../../../frame/ext/ui/icon/attach.png) !important;}
+.db-icn-add {background-image: url(../../../frame/ext/ui/icon/add.png) !important;}
+.db-icn-stop {background-image: url(../../../frame/ext/ui/icon/stop.png) !important;}
+.db-icn-cross {background-image: url(../../../frame/ext/ui/icon/cross.png) !important;}
+.db-icn-trash {background-image: url(../../../frame/ext/ui/icon/trash_16.gif) !important;}
+.db-icn-upload_ {background-image: url(../../../frame/ext/ui/icon/upload_.png) !important;}
+.key_add {
+    background-image: url(../../../frame/ext/ui/icon/key_add.png);
+}
+.table-key {
+    background-image: url(../../../frame/ext/ui/icon/table_key.png);
+}
+.btn-left {
+    background-image: url(../../../frame/ext/ui/icon/arrow_left.png);
+}
+.btn-right {
+    background-image: url(../../../frame/ext/ui/icon/arrow_right.png);
+}
+.calendar_view_day {
+    background-image: url(../../../frame/ext/ui/icon/calendar_view_day.png);
+}
+.x-action-col-cell img.key_delete-col {
+   height: 16px;
+   width: 16px;
+   background-image: url(../../../frame/ext/ui/icon/key_delete.png);
+}
+.key_delete{background-image: url(../../../frame/ext/ui/icon/key_delete.png) !important;}
+.key{background-image: url('../../../frame/ext/ui/icon/key.png') !important;}
+.table_refresh{background-image: url('../../../frame/ext/ui/icon/table_refresh.png') !important;}
+.page_find{background-image: url('../../../frame/ext/ui/icon/page_find.png') !important;}
+.user_edit{background-image: url('../../../frame/ext/ui/icon/user_edit.gif') !important;}
+.money_yen{background-image: url('../../../frame/ext/ui/icon/money_yen.png') !important;}
+.excel{background-image: url('../../../frame/ext/ui/icon/page_excel.png') !important;}
+.add{background-image: url(../../../frame/ext/ui/icon/application_add.png) !important;}
+.edit{background-image: url(../../../frame/ext/ui/icon/application_edit.png) !important;}
+.delete{background-image: url(../../../frame/ext/ui/icon/application_delete.png) !important;}
+.cancel{background-image: url(../../../frame/ext/ui/icon/cancel.png) !important;}
+.confirm{background-image: url(../../../frame/ext/ui/icon/confirm.png) !important;}
+.zoom{background-image: url(../../../frame/ext/ui/icon/zoom.png) !important;}
+.title{background-image: url(../../../frame/ext/ui/icon/application_view_icons.png) !important;}
+.x-action-col-cell img.edit {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../../frame/ext/ui/icon/application_edit.png);
+}
+.x-action-col-cell img.delete {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../../frame/ext/ui/icon/application_delete.png);
+}
+.excel-icon {
+    background: url('../../../frame/ext/ui/icon/page_excel.png') no-repeat 0 0 !important;
+}
+#fi-button-msg {
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    background: #eee;
+    margin: 5px;
+    float: left;
+}

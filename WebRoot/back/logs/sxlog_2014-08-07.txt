@@ -1,0 +1,14 @@
+[ERROR]_2014-08-07 21:01:28 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-07 21:01:28 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-07 21:01:31 :==========10,10=========
+  [ERROR]_2014-08-07 21:01:31 :1======
+  [ERROR]_2014-08-07 21:01:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-07 21:01:33 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-07 21:01:34 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1407416494701', ]
+  [ERROR]_2014-08-07 21:01:34 :BtcChinaUtil.SECRET_KEY====>cb83d605-42b3-4c4c-95ac-f5456b579d97
+  [ERROR]_2014-08-07 22:16:46 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['51', ]
+  

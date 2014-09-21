@@ -1,0 +1,201 @@
+.x-layout-collapsed-west
+{
+	background-image:url(../img/back/index/menus/collapse-bg.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.x-layout-collapsed-north
+{
+	background-image:url(../assets/img/back/index/menus/top-collapse-bg.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+body
+{
+	font-size:12px;
+	font-family:'ËÎÌו';
+}
+.clear
+{
+	clear:both;
+	margin:0;
+	padding:0;
+	border:0;
+}
+.menu-desktop
+{
+	background-image:url('../img/back/index/menus/monitor.png')!important;
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+}
+.menu-mail_box
+{
+	background-image:url('../img/back/index/menus/mail_box.png')!important;
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+}
+.menu-task
+{
+	background-image:url('../img/back/index/menus/task.png')!important;
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+}
+.menu-workPlan
+{
+	background-image:url('../img/back/index/menus/workplan.png')!important;
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+}
+.menu-document
+{
+	background-image:url('../img/back/index/menus/documentation.gif')!important;
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+}
+#loading-mask
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:20000;
+	background-color:white;
+}
+#loading
+{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+	height:auto;
+}
+#loading a
+{
+	color:#258;
+}
+#loading .loading-indicator
+{
+	background:white;
+	color:#444;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+	height:auto;
+}
+#loading-msg
+{
+	font:normal 14px arial,tahoma,sans-serif;
+	color:blue;
+	padding-top:18px;
+}
+div button
+{
+	border:none;
+	cursor:pointer;
+	width:16px;
+	height:16px;
+}
+#app-header
+{
+	background:url('../img/back/index/f2.gif') repeat-x;
+	height:60px;
+	width:100%;
+}
+#header-left
+{
+	width:230px;
+	float:left;
+}
+#header-main
+{
+	width:520px;
+	float:left;
+	margin-left:6px;
+}
+#header-right
+{
+	width:260px;
+	float:right;
+}
+#setting
+{
+	float:right;
+	width:80px;
+	padding-top:6px;
+	padding-right:6px;
+}
+#welcomeMsg
+{
+	float:left;
+	width:240px;
+	padding-top:6px;
+}
+#currentTime
+{
+	float:left;
+	width:360px;
+	padding-top:6px;
+}
+#header-topnav
+{
+	display:inline;
+	padding-top:4px;
+}
+#header-topnav .activeli
+{
+	display:block;
+	float:left;
+}
+#header-topnav li
+{
+	background:url('../img/back/index/header-li.png') no-repeat;
+}
+#header-topnav li a
+{
+	color:#1E3A65;
+	display:block;
+	text-align:left;
+	text-indent:32px;
+	height:30px;
+	font-size:12px;
+	font-weight:bold;
+	line-height:30px;
+	position:relative;
+	text-decoration:none;
+	width:80px;
+}
+#header-topnav .commonli
+{
+	display:block;
+	float:left;
+	color:#4B6888;
+}
+
+.excel-cls
+{
+	background:url('../images/btn/excel.png') no-repeat!important;
+	padding-left:18px;
+	text-decoration:none;
+}
+.btn-clock
+{
+	background-image:url('../images/btn/clock.png')!important;
+}
+.btn-signIn
+{
+	background-image:url('../images/btn/personal/signIn.gif')!important;
+}
+.btn-signOff
+{
+	background-image:url('../images/btn/personal/signOff.gif')!important;
+}
+.btn-showDetail
+{
+	background-image:url('../images/btn/showDetail.png')!important;
+}
+.btn-relax
+{
+	background-image:url('../images/btn/relax.png')!important;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd"> 
+<configuration> 
+ <typeAliases>  
+   
+    <typeAlias alias="coreEntity"          type="com.sx.core.entity.CoreEntity" /> 
+    <typeAlias alias="sysuser"             type="com.sx.rbac.entity.SysUserEntity"/>
+    <typeAlias alias="rolesandusergroupsentity" type="com.sx.rbac.entity.RolesAndUserGroupsEntity"/>
+    <typeAlias alias="menu" type="com.sx.rbac.entity.MenuEntity"/>
+    <typeAlias alias="btcaccount" type="com.sx.btccoin.entity.AccountInfoEntity"/>
+    <typeAlias alias="bctdr" type="com.sx.btccoin.entity.BtcCoinTradeDepthRec"/>
+    <typeAlias alias="bctm" type="com.sx.btccoin.entity.BtcCoinTradeMarket"/>
+    <typeAlias alias="tle" type="com.sx.btccoin.entity.TradeLogEntity"/>
+    <!-- 
+    <typeAlias alias="messageEntity"       type="com.sx.util.message.MessageEntity" /> 
+    <typeAlias alias="reminder"            type="com.sx.util.message.email.EmailReminderEntity"/> 
+    <typeAlias alias="emailMessageEntity"  type="com.sx.util.message.email.EmailReminderEntity"/> 
+   
+   	<typeAlias alias="rolesandusergroupsentity" type="com.sx.rbac.entity.RolesAndUserGroupsEntity"/>
+  	
+  	<typeAlias alias="department" type="com.sx.rbac.entity.DepartmentEntity"/>
+  	<typeAlias alias="messagetip" type="com.sx.oa.entity.MessageTipEntity"/>
+  	<typeAlias alias="indexdisplay" type="com.sx.oa.entity.IndexDisplayEntity"/>
+  	<typeAlias alias="article" type="com.sx.cms.entity.ArticleEntity"/>
+  	<typeAlias alias="attachment" type="com.sx.cms.entity.AttachmentEntity"/>
+  	<typeAlias alias="keywords" type="com.sx.cms.entity.KeyWordsEntity"/>
+  	<typeAlias alias="aticletitle" type="com.sx.cms.entity.TitleEntity"/>
+    <typeAlias alias="aticleandtitle" type="com.sx.cms.entity.TitleAndArticleEntity"/>
+    <typeAlias alias="keyword" type="com.sx.cms.entity.KeyWordsEntity"/>
+    <typeAlias alias="kaunion" type="com.sx.cms.entity.KeyWordAndArticleUnionEntity"/>
+ 	<typeAlias alias="attachment" type="com.sx.cms.entity.AttachmentEntity"/>
+    <typeAlias alias="articleandattachment" type="com.sx.cms.entity.ArticleAndAttachmentEntity"/>
+ 	<typeAlias alias="userinfo" type="com.sx.tshh.entity.UserInfoEntity"/>
+ 	<typeAlias alias="houseinfo" type="com.sx.tshh.entity.HouseInfoEntity"/>
+    <typeAlias alias="houseinfoandregion" type="com.sx.tshh.entity.HouseInfoAndRegion"/>
+    <typeAlias alias="houseinfospecial" type="com.sx.tshh.entity.HouseInfoAndSpecial"/>
+    <typeAlias alias="houseinfoattachment" type="com.sx.tshh.entity.HouseInfoAndAttachment"/>
+    <typeAlias alias="special" type="com.sx.tshh.entity.SpecialEntity"/>
+    <typeAlias alias="region" type="com.sx.tshh.entity.RegionEntity"/>
+    <typeAlias alias="cityinfo" type="com.sx.tshh.entity.CityInfoEntity"/>
+	<typeAlias alias="city" type="com.sx.tshh.entity.CityDictEntity"/>
+    <typeAlias alias="housetrade" type="com.sx.tshh.entity.HouseTradeEntity"/>
+    <typeAlias alias="houselog" type="com.sx.tshh.entity.HouseLogEntity"/>
+    <typeAlias alias="usercity" type="com.sx.tshh.entity.SysUserAndCityInfoEntity"/>
+    <typeAlias alias="requirement" type="com.sx.tshh.entity.RequirementEntity"/>
+    <typeAlias alias="provinceinfo" type="com.sx.tshh.entity.ProvinceinfoEntity"/>
+     -->
+ </typeAliases>  
+ <mappers> 
+ 	
+	<mapper resource="com/sx/core/entity/CoreEntity.xml" /> 
+	<mapper resource="com/sx/rbac/entity/xml/SysUserEntity.xml" /> 
+	<mapper resource="com/sx/rbac/entity/xml/MenuEntity.xml" /> 
+	<mapper resource="com/sx/btccoin/entity/xml/AccountInfoEntity.xml" /> 
+	<mapper resource="com/sx/btccoin/entity/xml/BtcCoinTradeDepthRec.xml" /> 
+	<!-- 
+	<mapper resource="com/sx/core/entity/AreaEntity.xml" /> 
+	<mapper resource="com/sx/util/message/MessageEntity.xml" /> 
+	<mapper resource="com/sx/util/message/email/EmailReminderEntity.xml" />
+	<mapper resource="com/sx/rbac/entity/xml/DepartmentEntity.xml" />
+	<mapper resource="com/sx/oa/entity/xml/MessageTipEntity.xml" /> 
+	<mapper resource="com/sx/oa/entity/xml/IndexDisplayEntity.xml" /> 
+	<mapper resource="com/sx/cms/entity/xml/ArticleEntity.xml" /> 
+	<mapper resource="com/sx/cms/entity/xml/TitleEntity.xml" />
+	<mapper resource="com/sx/cms/entity/xml/KeyWordsEntity.xml" />
+	<mapper resource="com/sx/cms/entity/xml/AttachmentEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/UserInfoEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/HouseInfoEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/HouseTradeEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/RegionEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/RequirementEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/HouseLogEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/CityInfoEntity.xml" />
+	<mapper resource="com/sx/tshh/entity/xml/ProvinceinfoEntity.xml" />
+	 -->
+ </mappers> 
+</configuration> 
+
+	<!-- 
+	<typeAlias alias="landinfo" type="com.sx.form.entity.LandInfoEntity"/>
+    <typeAlias alias="landinfolog" type="com.sx.form.entity.LandInfoLogEntity"/>
+    <typeAlias alias="houseinfoandregion" type="com.sx.form.ts.entity.HouseInfoAndRegion"/>
+    <typeAlias alias="houseinfospecial" type="com.sx.form.ts.entity.HouseInfoAndSpecial"/>
+    <typeAlias alias="houseinfoattachment" type="com.sx.form.ts.entity.HouseInfoAndAttachment"/>
+    <typeAlias alias="special" type="com.sx.form.ts.entity.SpecialEntity"/>
+    <typeAlias alias="attachment" type="com.sx.article.entity.AttachmentEntity"/>
+    <typeAlias alias="region" type="com.sx.cms.entity.RegionEntity"/>
+    <typeAlias alias="housetrade" type="com.sx.form.entity.HouseTradeEntity"/>
+     -->

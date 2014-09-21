@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.rbac.dao.IMenuDao">
+  <!-- 获取一级菜单数据信息 -->
+  <resultMap type="menu" id="findFirstMenuResultMap">
+  	<result column="m_id" property="id"/>
+  	<result column="m_id" property="mid"/>
+  	<result column="m_name" property="mname"/>
+  	<result column="m_name" property="text"/>
+  	<result column="m_code" property="mcode"/>
+  	<result column="m_iconcls" property="iconCls"/>
+  	<result column="m_function" property="params"/>
+  </resultMap>
+  <!-- 获取一级菜单SQL语句 -->
+  <select id="findFirstMenu" parameterType="menu" resultMap="findFirstMenuResultMap">
+  	<![CDATA[
+			select
+				distinct 
+			      menu.* 
+			from sys_menus menu
+			left join sys_authority_menus am
+			on menu.m_id = am.rm_m_id
+			left join sys_authority auth
+			on auth.a_id = am.rm_a_id
+			left join sys_roles_authority ra
+			on ra.sa_a_id = am.rm_a_id
+			left join sys_roles roles
+			on roles.r_id = ra.sa_r_id 
+	]]>
+	<where>
+		<if test="type != null and type != ''">
+		  	<![CDATA[and menu.m_type = #{type}]]>
+		</if>
+		<if test="pid != null and pid != ''">
+		  	<![CDATA[and menu.m_pid=#{pid}]]>
+		</if>
+		<if test="ids != null and ids != ''">
+		  	<![CDATA[and roles.r_id in (${ids})]]>
+		</if>
+	</where>
+	<![CDATA[order by menu.m_order desc]]>
+   </select>
+</mapper>

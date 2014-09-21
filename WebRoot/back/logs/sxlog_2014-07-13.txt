@@ -1,0 +1,639 @@
+[ERROR]_2014-07-13 09:46:00 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 09:46:00 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 09:46:02 :==========10,10=========
+  [ERROR]_2014-07-13 09:46:02 :1======
+  [ERROR]_2014-07-13 09:46:03 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 09:46:05 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 11:56:19 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 11:56:19 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 11:56:19 :==========10,10=========
+  [ERROR]_2014-07-13 11:56:19 :1======
+  [ERROR]_2014-07-13 11:56:19 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 11:56:22 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 11:58:08 :Could not find action or result
+/summer/btc/getbtcbalance.jspx
+  There is no Action mapped for namespace [/btc] and action name [getbtcbalance] associated with context path [/summer]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:534)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+[ERROR]_2014-07-13 11:58:26 :Could not find action or result
+/summer/role/getbtcbalance.jspx
+  There is no Action mapped for namespace [/role] and action name [getbtcbalance] associated with context path [/summer]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:534)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+[ERROR]_2014-07-13 11:58:45 :Could not find action or result
+/summer/back/role/getbtcbalance.jspx
+  There is no Action mapped for namespace [/back/role] and action name [getbtcbalance] associated with context path [/summer]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:534)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+[ERROR]_2014-07-13 12:02:21 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 12:02:21 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 12:02:24 :==========10,10=========
+  [ERROR]_2014-07-13 12:02:24 :1======
+  [ERROR]_2014-07-13 12:02:24 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 12:02:26 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 16:21:07 :在拦截信息时出现异常情况
+  org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'com.sx.btccoin.entity.AccountInfoEntity@2d1df17e' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'id' in 'class com.sx.btccoin.entity.AccountInfoEntity'
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:346)
+	at $Proxy6.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:189)
+	at org.apache.ibatis.binding.MapperMethod.executeForList(MapperMethod.java:100)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:70)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:38)
+	at $Proxy7.findAllAccount(Unknown Source)
+	at com.sx.btccoin.service.impl.BtcTradeService.findAllAccount(BtcTradeService.java:20)
+	at com.sx.btccoin.action.BtcAction.getBtcBalance(BtcAction.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeAction(DefaultActionInvocation.java:446)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeActionOnly(DefaultActionInvocation.java:285)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:248)
+	at com.sx.core.interceptor.LoginfoForHTTPInterceptor.doIntercept(LoginfoForHTTPInterceptor.java:62)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:176)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:238)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:238)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:176)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:187)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:544)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'com.sx.btccoin.entity.AccountInfoEntity@2d1df17e' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'id' in 'class com.sx.btccoin.entity.AccountInfoEntity'
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.setBeanProperty(BeanWrapper.java:154)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.set(BeanWrapper.java:36)
+	at org.apache.ibatis.reflection.MetaObject.setValue(MetaObject.java:120)
+	at org.apache.ibatis.executor.resultset.FastResultSetHandler.applyPropertyMappings(FastResultSetHandler.java:253)
+	at org.apache.ibatis.executor.resultset.FastResultSetHandler.getRowValue(FastResultSetHandler.java:224)
+	at org.apache.ibatis.executor.resultset.FastResultSetHandler.handleRowValues(FastResultSetHandler.java:173)
+	at org.apache.ibatis.executor.resultset.FastResultSetHandler.handleResultSet(FastResultSetHandler.java:146)
+	at org.apache.ibatis.executor.resultset.FastResultSetHandler.handleResultSets(FastResultSetHandler.java:112)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:40)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:55)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:41)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:238)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:112)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:72)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:78)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:338)
+	... 76 more
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'id' in 'class com.sx.btccoin.entity.AccountInfoEntity'
+	at org.apache.ibatis.reflection.Reflector.getSetInvoker(Reflector.java:300)
+	at org.apache.ibatis.reflection.MetaClass.getSetInvoker(MetaClass.java:97)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.setBeanProperty(BeanWrapper.java:146)
+	... 96 more
+[ERROR]_2014-07-13 16:21:07 :Could not find action or result
+/summer/back/btc/getbtcbalance.jspx
+  No result defined for action com.sx.btccoin.action.BtcAction and result exception
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:369)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:271)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:544)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+[ERROR]_2014-07-13 18:36:00 :Context initialization failed
+  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreBiz' defined in file [E:\WorkProject\summer\WebRoot\WEB-INF\classes\com\sx\core\services\impl\CoreBiz.class]: Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class [class com.sx.core.services.impl.CoreBiz]: Common causes of this problem include using a final class or a non-visible class; nested exception is net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InvocationTargetException-->null
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:557)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:842)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:416)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:261)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:192)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4205)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4704)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3460)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:426)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1649)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1658)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1658)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1638)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class [class com.sx.core.services.impl.CoreBiz]: Common causes of this problem include using a final class or a non-visible class; nested exception is net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InvocationTargetException-->null
+	at org.springframework.aop.framework.Cglib2AopProxy.getProxy(Cglib2AopProxy.java:206)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:112)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:476)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:362)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:322)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:404)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1407)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	... 21 more
+Caused by: net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InvocationTargetException-->null
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:237)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at org.springframework.aop.framework.Cglib2AopProxy.getProxy(Cglib2AopProxy.java:200)
+	... 28 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:384)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:219)
+	... 31 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:384)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:219)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at org.springframework.aop.framework.Cglib2AopProxy.getProxy(Cglib2AopProxy.java:200)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:112)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:476)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:362)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:322)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:404)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1407)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:450)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:287)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:189)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:557)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:842)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:416)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:261)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:192)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4205)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4704)
+[ERROR]_2014-07-13 19:06:57 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 19:06:57 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 19:06:58 :==========10,10=========
+  [ERROR]_2014-07-13 19:06:58 :1======
+  [ERROR]_2014-07-13 19:06:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 19:07:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 19:07:27 :==========10,10=========
+  [ERROR]_2014-07-13 19:07:27 :1======
+  [ERROR]_2014-07-13 19:07:27 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 19:07:28 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 19:07:29 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405249649908', ]
+  [ERROR]_2014-07-13 20:07:17 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:07:17 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:07:19 :==========10,10=========
+  [ERROR]_2014-07-13 20:07:19 :1======
+  [ERROR]_2014-07-13 20:07:19 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 20:07:22 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 20:07:25 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405253245218', ]
+  [ERROR]_2014-07-13 20:25:19 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:25:19 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:25:21 :==========10,10=========
+  [ERROR]_2014-07-13 20:25:21 :1======
+  [ERROR]_2014-07-13 20:25:21 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 20:25:22 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 20:25:24 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405254323983', ]
+  [ERROR]_2014-07-13 20:27:34 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:27:34 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 20:27:35 :==========10,10=========
+  [ERROR]_2014-07-13 20:27:35 :1======
+  [ERROR]_2014-07-13 20:27:35 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 20:27:37 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 20:27:38 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405254458671', ]
+  [ERROR]_2014-07-13 20:34:16 :==========10,10=========
+  [ERROR]_2014-07-13 20:34:16 :1======
+  [ERROR]_2014-07-13 20:34:16 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 20:34:17 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 20:34:18 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405254858626', ]
+  [ERROR]_2014-07-13 20:35:20 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 20:35:29 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405254858626', ]
+  [ERROR]_2014-07-13 21:59:21 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 21:59:21 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 21:59:23 :==========10,10=========
+  [ERROR]_2014-07-13 21:59:23 :1======
+  [ERROR]_2014-07-13 21:59:23 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 21:59:25 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 21:59:26 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405259966409', ]
+  [ERROR]_2014-07-13 22:02:40 :==========10,10=========
+  [ERROR]_2014-07-13 22:02:40 :1======
+  [ERROR]_2014-07-13 22:02:40 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:02:44 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:02:48 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405260168141', ]
+  [ERROR]_2014-07-13 22:03:29 :==========10,10=========
+  [ERROR]_2014-07-13 22:03:29 :1======
+  [ERROR]_2014-07-13 22:03:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:03:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:03:32 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405260212369', ]
+  [ERROR]_2014-07-13 22:03:54 :==========10,10=========
+  [ERROR]_2014-07-13 22:03:54 :1======
+  [ERROR]_2014-07-13 22:03:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:03:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:04:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405260240071', ]
+  [ERROR]_2014-07-13 22:04:45 :==========10,10=========
+  [ERROR]_2014-07-13 22:04:45 :1======
+  [ERROR]_2014-07-13 22:04:45 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:05:05 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:05:05 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:05:07 :==========10,10=========
+  [ERROR]_2014-07-13 22:05:07 :1======
+  [ERROR]_2014-07-13 22:05:07 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:05:08 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:05:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405260309767', ]
+  [ERROR]_2014-07-13 22:09:09 :==========10,10=========
+  [ERROR]_2014-07-13 22:09:09 :1======
+  [ERROR]_2014-07-13 22:09:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:09:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:09:12 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405260552798', ]
+  [ERROR]_2014-07-13 22:22:25 :==========10,10=========
+  [ERROR]_2014-07-13 22:22:25 :1======
+  [ERROR]_2014-07-13 22:22:25 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:22:27 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:22:28 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405261348821', ]
+  [ERROR]_2014-07-13 22:22:30 :在拦截信息时出现异常情况
+  com.alibaba.fastjson.JSONException: write javaBean error
+	at com.alibaba.fastjson.serializer.JavaBeanSerializer.write(JavaBeanSerializer.java:262)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:131)
+	at com.alibaba.fastjson.serializer.ListSerializer.write(ListSerializer.java:62)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:131)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:155)
+	at com.sx.btccoin.action.BtcAction.getBtcBalance(BtcAction.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeAction(DefaultActionInvocation.java:446)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeActionOnly(DefaultActionInvocation.java:285)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:248)
+	at com.sx.core.interceptor.LoginfoForHTTPInterceptor.doIntercept(LoginfoForHTTPInterceptor.java:62)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:176)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:238)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:238)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:176)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:187)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:544)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.alibaba.fastjson.serializer.FieldSerializer.getPropertyValue(FieldSerializer.java:69)
+	at com.alibaba.fastjson.serializer.JavaBeanSerializer.write(JavaBeanSerializer.java:230)
+	... 73 more
+Caused by: java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:417)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at com.sx.btccoin.entity.AccountInfoEntity.getMarketname(AccountInfoEntity.java:183)
+	... 79 more
+[ERROR]_2014-07-13 22:22:30 :Could not find action or result
+/summer/back/btc/getbtcbalance.jspx?_dc=1405261348821
+  No result defined for action com.sx.btccoin.action.BtcAction and result exception
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:369)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:271)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:544)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:864)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:579)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1665)
+	at java.lang.Thread.run(Thread.java:662)
+[ERROR]_2014-07-13 22:34:07 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:34:07 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:34:09 :==========10,10=========
+  [ERROR]_2014-07-13 22:34:09 :1======
+  [ERROR]_2014-07-13 22:34:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:34:10 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:34:12 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262052013', ]
+  [ERROR]_2014-07-13 22:36:30 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:36:30 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:36:31 :==========10,10=========
+  [ERROR]_2014-07-13 22:36:31 :1======
+  [ERROR]_2014-07-13 22:36:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:36:32 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:36:34 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262194288', ]
+  [ERROR]_2014-07-13 22:46:11 :==========10,10=========
+  [ERROR]_2014-07-13 22:46:11 :1======
+  [ERROR]_2014-07-13 22:46:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:46:12 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:46:15 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262775439', ]
+  [ERROR]_2014-07-13 22:46:57 :==========10,10=========
+  [ERROR]_2014-07-13 22:46:57 :1======
+  [ERROR]_2014-07-13 22:46:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:46:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:47:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262819893', ]
+  [ERROR]_2014-07-13 22:48:30 :==========10,10=========
+  [ERROR]_2014-07-13 22:48:30 :1======
+  [ERROR]_2014-07-13 22:48:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:48:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:48:33 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262913046', ]
+  [ERROR]_2014-07-13 22:48:56 :==========10,10=========
+  [ERROR]_2014-07-13 22:48:56 :1======
+  [ERROR]_2014-07-13 22:48:56 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:48:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:49:01 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262941719', ]
+  [ERROR]_2014-07-13 22:49:52 :==========10,10=========
+  [ERROR]_2014-07-13 22:49:52 :1======
+  [ERROR]_2014-07-13 22:49:52 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:49:53 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:49:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405262998719', ]
+  [ERROR]_2014-07-13 22:51:08 :==========10,10=========
+  [ERROR]_2014-07-13 22:51:08 :1======
+  [ERROR]_2014-07-13 22:51:08 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:51:10 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:51:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263071446', ]
+  [ERROR]_2014-07-13 22:51:53 :==========10,10=========
+  [ERROR]_2014-07-13 22:51:53 :1======
+  [ERROR]_2014-07-13 22:51:53 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:51:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:51:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263118327', ]
+  [ERROR]_2014-07-13 22:52:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263120722', ]
+  [ERROR]_2014-07-13 22:55:53 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:55:53 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-13 22:55:55 :==========10,10=========
+  [ERROR]_2014-07-13 22:55:55 :1======
+  [ERROR]_2014-07-13 22:55:55 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:55:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:56:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263360741', ]
+  [ERROR]_2014-07-13 22:56:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263371694', ]
+  [ERROR]_2014-07-13 22:58:02 :==========10,10=========
+  [ERROR]_2014-07-13 22:58:02 :1======
+  [ERROR]_2014-07-13 22:58:02 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:58:03 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:58:04 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263484417', ]
+  [ERROR]_2014-07-13 22:58:36 :==========10,10=========
+  [ERROR]_2014-07-13 22:58:36 :1======
+  [ERROR]_2014-07-13 22:58:36 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-13 22:58:37 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-13 22:59:38 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1405263578008', ]
+  

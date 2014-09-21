@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.rbac.dao.IDepartmentDao">
+	<delete id="deleteDepartmentEntity" parameterType="department">
+		<![CDATA[delete from sys_department where d_ppath like concat(#{parentPath},'%') or d_id = #{depid}]]>
+	</delete>
+   <update id="updateDepartmentEntity" parameterType="department">
+   		<![CDATA[update sys_department]]>
+   		<set>
+   			<if test="depname != null"><![CDATA[d_name=#{depname},]]></if>
+			<if test="depphone != null"><![CDATA[d_tel=#{depphone},]]></if>
+			<if test="depprsnid != null"><![CDATA[d_uid=#{depprsnid},]]></if>
+			<if test="childcount != null"><![CDATA[d_childcount=#{childcount},]]></if>
+			<if test="depparentid != null"><![CDATA[d_pid=#{depparentid},]]></if>
+			<if test="parentPath != null"><![CDATA[d_ppath=#{parentPath},]]></if>
+			<if test="depnum != null"><![CDATA[d_num=#{depnum},]]></if>
+			<if test="depemail != null"><![CDATA[d_email=#{depemail},]]></if>
+			<if test="depfax != null"><![CDATA[d_fax=#{depfax},]]></if>
+   		</set>
+   		<![CDATA[where d_id = #{depid}]]>
+   </update>
+   <insert id="addDepartmentEntity" parameterType="department"
+	useGeneratedKeys="true" keyProperty="depid">
+	<![CDATA[
+	insert into sys_department (
+		d_name,d_tel,d_uid,
+		d_childcount,d_pid,d_ppath,
+		d_num,d_email,d_fax
+		)values (#{depname},#{depphone},#{depprsnid},
+			#{childcount},#{parentNodeId},#{parentPath},
+			#{depnum},#{depemail},#{depfax}
+	)
+	]]>
+	</insert>
+	<resultMap type="department" id="findDepartmentResultMap">
+		<result column="d_id" property="depid"/>
+		<result column="d_id" property="id"/>
+	  	<result column="d_name" property="depname"/>
+	  	<result column="d_tel" property="depphone"/>
+	  	<result column="d_uid" property="depprsnid"/>
+	  	<result column="d_childcount" property="childcount"/>
+	  	<result column="d_pid" property="depparentid"/>
+	  	<result column="d_pid" property="parentNodeId"/>
+	  	<result column="d_ppath" property="parentPath"/>
+	  	<result column="d_num" property="depnum"/>
+	  	<result column="d_email" property="depemail"/>
+	  	<result column="d_fax" property="depfax"/>
+	</resultMap>
+	<select id="findDepartmentEntity" parameterType="department" resultMap="findDepartmentResultMap">
+		<![CDATA[select * from sys_department where d_pid = #{depid}]]>
+	</select>
+</mapper>

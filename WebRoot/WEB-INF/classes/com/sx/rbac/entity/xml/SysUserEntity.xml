@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.rbac.dao.ISysUserDao">
+	<!-- 编辑用户信息 -->
+	<update id="editUser" parameterType="sysuser">
+	  <![CDATA[update sys_users]]>
+	  <trim prefix="set" suffixOverrides=",">
+	  	<if test="userid != null and userid !=''">
+	  		<![CDATA[uuserid = #{userid},]]>
+	  	</if>
+	  	<if test="username != null and username !=''">
+	  		<![CDATA[uname = #{username},]]>
+	  	</if>
+	  	<if test="pwd != null and pwd != ''">
+	  		<![CDATA[upwd = #{pwd},]]>
+	  	</if>
+	  	<if test="usersex != null and usersex != ''">
+	  		<![CDATA[usex = #{usersex},]]>
+	  	</if>
+	  	<if test="useremail != null and useremail !=''">
+	  		<![CDATA[uemail = #{useremail},]]>
+	  	</if>
+	  	<if test="usernote != null and usernote !=''">
+	  		<![CDATA[unote = #{usernote},]]>
+	  	</if>
+	  </trim>
+	  <![CDATA[where uid = #{uid}]]>
+	</update>
+	<!-- 注册用户权限 
+    <insert id="addUserRole" parameterType="rolesandusergroupsentity" useGeneratedKeys="true" keyProperty="id">
+  	  <![CDATA[insert into sys_users_roles (ur_u_id,ur_r_id) values (#{uid},#{userroleid})]]>
+    </insert>-->
+	<!-- 新增用户信息 
+	<insert id="addUser" parameterType="sysuser" useGeneratedKeys="true" keyProperty="uid">
+	  <![CDATA[insert into sys_users (uuserid,uname,upwd,usex,uemail,uadddate,unote)
+	 	values (#{userid},#{username},#{pwd},#{usersex},#{useremail},#{useradddate},#{usernote})]]>
+	</insert>-->
+	<!-- 
+	<resultMap type="cityinfo" id="cityinfoResult">
+	  	<result column="c_id" property="cid"/>
+	  	<result column="c_name" property="cname"/>
+	  	<result column="c_pid" property="cpid"/>
+	  	<result column="c_level" property="clevel"/>
+	  	<result column="c_address" property="caddress"/>
+	  	<result column="c_telephone" property="ctelephone"/>
+	  	<result column="c_mobile" property="cmobile"/>
+	  	<result column="c_fax" property="cfax"/>
+	  	<result column="c_email" property="cemail"/>
+	  	<result column="c_note" property="cnote"/>
+	  	<result column="c_type" property="ctype"/>
+	  </resultMap>
+	   -->
+	   <!--  -->
+	  <resultMap type="rolesandusergroupsentity" id="rolesandgroupsresult">
+	  	<result column="uid" property="uid"/>
+	  	<result column="usergroupid" property="usergroupid"/>
+	  	<result column="userroleid" property="userroleid"/>
+	  	<result column="usergrouproleid" property="usergrouproleid"/>
+	  	<result column="usergroupname" property="usergroupname"/>
+	  	<result column="userrolename" property="userrolename"/>
+	  	<result column="usergrouprolename" property="usergrouprolename"/>
+	  </resultMap>
+	  
+	  <!-- 获取用户数据信息 -->
+	  <resultMap type="sysuser" id="findSysUserResultMap">
+	  	<result column="uid" property="uid"/>
+	  	<result column="urroleid" property="urroleid"/>
+	  	<result column="ugroupid" property="ugroupid"/>
+	  	<result column="uuserid" property="userid"/>
+	  	<result column="uname" property="username"/>
+	  	<result column="upwd" property="pwd"/>
+	  	<result column="usex" property="usersex"/>
+	  	<result column="uemail" property="useremail"/>
+	  	<result column="uadddate" property="useradddate"/>
+	  	<result column="ustartdate" property="userstartdate"/>
+	  	<result column="uenddate" property="userenddate"/>
+	  	<result column="unote" property="usernote"/>
+	  	<result column="uavailable" property="available"/>
+	  	<association property="rolesandgroups" select="findRolesAndUserGroupsByUid" column="uid"/>
+	  	<!-- 
+	    <association property="citys" select="findCityAgentersByUid" column="uid"/>
+  	    <association property="rolesandgroups" select="findRolesAndUserGroupsByUid" column="uid"/>
+  	     -->
+	  </resultMap>
+	  <!-- 用and条件进行连接 -->
+	  <sql id="findUserAndCondiction">
+	  		
+			<if test="uid != null and uid !='' ">
+		  		<![CDATA[and uid=#{uid}]]>
+		  	</if>
+		  	<if test="urroleid != null and urroleid!=''" >
+		  		<![CDATA[and urroleid=#{urroleid}]]>
+		  	</if>
+		  	<if test="ugroupid != null and ugroupid != ''" >
+		  		<![CDATA[and ugroupid=#{ugroupid}]]>
+		  	</if>
+		  	<if test="userid != null and userid != ''">
+		  		<![CDATA[and uuserid=#{userid}]]>
+		  	</if>
+		  	<if test="username != null and username != ''">
+		  		<![CDATA[and uname=#{username}]]>
+		  	</if>
+		  	<if test="pwd != null and pwd != ''">
+		  		<![CDATA[and upwd=#{pwd}]]>
+		  	</if>
+		  	<if test="usersex != null and usersex != ''">
+		  		<![CDATA[and usex=#{usersex}]]>
+		  	</if>
+		  	<if test="useremail != null and useremail != ''">
+		  		<![CDATA[and uemail=#{useremail}]]>
+		  	</if>
+		  	<if test="useradddate != null and useradddate != ''">
+		  		<![CDATA[and uadddate=#{useradddate}]]>
+		  	</if>
+		  	<if test="usereditdate != null and usereditdate != ''">
+		  		<![CDATA[and ueditdate=#{usereditdate}]]>
+		  	</if>
+		  	<if test="userstartdate != null and userstartdate != ''">
+		  		<![CDATA[and ustartdate=#{userstartdate}]]>
+		  	</if>
+		  	<if test="userenddate != null and userenddate != ''">
+		  		<![CDATA[and uenddate=#{userenddate}]]>
+		  	</if>
+		  	<if test="usernote != null and usernote != ''">
+		  		<![CDATA[and unote=#{usernote}]]>
+		  	</if>
+		  	<if test="available != null and available != ''">
+		  		<![CDATA[and uavailable=#{available}]]>
+		  	</if>
+	  </sql>
+	  
+  <!-- 根据用户获取城市加盟商信息
+   <select id="findCityAgentersByUid" parameterType="java.lang.String" resultMap="cityinfoResult">
+   		<![CDATA[
+   			select
+			city.c_id,
+			city.c_name,
+			city.c_pid,
+			city.c_level,
+			city.c_address,
+			city.c_telephone,
+			city.c_mobile,
+			city.c_fax,
+			city.c_email,
+			city.c_note,
+			city.c_type
+			   from ts_cms_cityinfo_sysuser cu
+			left join ts_cms_cityinfos city 
+			on cu.cs_c_id = city. c_id 
+			where cu.cs_u_id = #{uid} 
+   		]]>
+   </select> -->
+   <!-- 根据用户信息级联查询用户组信息与权限信息 -->
+   <select id="findRolesAndUserGroupsByUid" parameterType="java.lang.String" resultMap="rolesandgroupsresult">
+  	 <![CDATA[
+  		select 
+			users.uid,
+			u.r_name as userrolename,
+			u.r_id  as userroleid,
+			roles.r_name as usergrouprolename,
+			roles.r_id as usergrouproleid,
+			groups.ug_name as usergroupname,
+			groups.ug_id as usergroupid 
+			  from sys_users users
+			left join sys_usergroup_users ugu
+			on users.uid = ugu.ug_u_id 
+			left join sys_usergroup groups 
+			on groups.ug_id = ugu.ug_g_id 
+			left join sys_usergroup_roles ugr 
+			on ugr.ugr_ug_id = groups.ug_id  
+			left join sys_roles roles 
+			on roles.r_id = ugr.ugr_r_id 
+			left join sys_users_roles ur
+			on ur.ur_u_id = users.uid 
+			left join sys_roles u 
+			on u.r_id = ur.ur_r_id 
+			where users.uid = #{uid} ]]>
+  </select>
+  <!-- 查询用户信息 -->
+  <select id="findSysUserOnlyOne" parameterType="sysuser" resultMap="findSysUserResultMap">
+	<![CDATA[select * from sys_users ]]>
+	<where>
+	 <include refid="findUserAndCondiction"/>
+	</where>
+ </select>
+</mapper>

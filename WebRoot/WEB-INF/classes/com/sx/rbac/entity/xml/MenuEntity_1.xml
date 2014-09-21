@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="Menu" >
+  <typeAlias alias="menu" type="com.sx.rbac.entity.MenuEntity"/>
+  <!-- 获取一级菜单数据信息 -->
+  <resultMap class="menu" id="findFirstMenuResultMap">
+  	<result column="m_id" property="id"/>
+  	<result column="m_id" property="mid"/>
+  	<result column="m_name" property="mname"/>
+  	<result column="m_name" property="text"/>
+  	<result column="m_code" property="mcode"/>
+  	<result column="m_iconcls" property="iconCls"/>
+  	<result column="m_function" property="params"/>
+  </resultMap>
+  <!-- 获取一级菜单SQL语句 -->
+  <select id="findFirstMenu" parameterClass="menu" resultMap="findFirstMenuResultMap">
+  	<![CDATA[
+			select
+				distinct 
+			      menu.* 
+			from sys_menus menu
+			left join sys_authority_menus am
+			on menu.m_id = am.rm_m_id
+			left join sys_authority auth
+			on auth.a_id = am.rm_a_id
+			left join sys_roles_authority ra
+			on ra.sa_a_id = am.rm_a_id
+			left join sys_roles roles
+			on roles.r_id = ra.sa_r_id 
+	]]>
+	<dynamic prepend="where">
+		<isNotNull prepend="and" property="type">
+			<![CDATA[menu.m_type = #type#]]>
+		</isNotNull>
+		<isNotNull prepend="and" property="pid">
+			<![CDATA[menu.m_pid = #pid#]]>
+		</isNotNull>
+		<isNotNull prepend="and" property="ids">
+			<![CDATA[roles.r_id in ($ids$)]]>
+		</isNotNull>
+	</dynamic>
+	<![CDATA[order by menu.m_order desc]]>
+   </select>
+</sqlMap>

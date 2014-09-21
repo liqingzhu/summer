@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sx.btccoin.dao.IBtcDao">
+  <!-- 获取Account信息 -->
+  <resultMap type="btcaccount" id="accountMap">
+  	<result column="t_id" property="id"/>
+  	<result column="t_apiacc" property="tradecode"/>
+  	<result column="t_mid" property="marketid"/>
+  	<result column="t_apisec" property="pwd"/>
+  	<result column="t_rate" property="rate"/>
+  	<result column="t_status" property="status"/>
+  </resultMap>
+  <!-- 获取Account SQL语句 -->
+  <select id="findAllAccount" parameterType="btcaccount" resultMap="accountMap">
+  	<![CDATA[
+		select * from sx_btc_trade_api
+	]]>
+	<where>
+		<if test="status != null and status != ''">
+		  	<![CDATA[and t_status = #{status}]]>
+		</if>
+	</where>
+	<!-- 
+	<![CDATA[order by menu.m_order desc]]>
+	 -->
+   </select>
+</mapper>

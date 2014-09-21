@@ -1,0 +1,99 @@
+[ERROR]_2014-08-01 00:04:52 :==========10,10=========
+  [ERROR]_2014-08-01 00:04:52 :1======
+  [ERROR]_2014-08-01 00:04:52 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:04:53 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:04:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406822694920', ]
+  [ERROR]_2014-08-01 00:04:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:05:31 :==========10,10=========
+  [ERROR]_2014-08-01 00:05:31 :1======
+  [ERROR]_2014-08-01 00:05:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:05:32 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:05:33 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406822733626', ]
+  [ERROR]_2014-08-01 00:05:43 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:10:22 :==========10,10=========
+  [ERROR]_2014-08-01 00:10:22 :1======
+  [ERROR]_2014-08-01 00:10:22 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:10:25 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:10:27 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406823027528', ]
+  [ERROR]_2014-08-01 00:10:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:13:56 :==========10,10=========
+  [ERROR]_2014-08-01 00:13:56 :1======
+  [ERROR]_2014-08-01 00:13:56 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:13:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:13:59 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406823239366', ]
+  [ERROR]_2014-08-01 00:14:03 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:14:05 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['2', ]
+  [ERROR]_2014-08-01 00:14:07 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['2', ]
+  [ERROR]_2014-08-01 00:30:37 :==========10,10=========
+  [ERROR]_2014-08-01 00:30:37 :1======
+  [ERROR]_2014-08-01 00:30:37 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:30:38 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:30:39 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406824239400', ]
+  [ERROR]_2014-08-01 00:30:42 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:31:23 :==========10,10=========
+  [ERROR]_2014-08-01 00:31:23 :1======
+  [ERROR]_2014-08-01 00:31:23 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:31:25 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:31:26 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406824286193', ]
+  [ERROR]_2014-08-01 00:31:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:31:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:31:32 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'marketid' on 'class com.sx.btccoin.action.BtcAction: Error setting expression 'marketid' with value ['1', ]
+  [ERROR]_2014-08-01 00:50:28 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 00:50:28 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 00:50:29 :==========10,10=========
+  [ERROR]_2014-08-01 00:50:29 :1======
+  [ERROR]_2014-08-01 00:50:29 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 00:50:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 00:50:31 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406825431778', ]
+  [ERROR]_2014-08-01 20:16:41 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 20:16:41 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 20:16:42 :==========10,10=========
+  [ERROR]_2014-08-01 20:16:42 :1======
+  [ERROR]_2014-08-01 20:16:42 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 20:16:44 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 20:16:46 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406895406588', ]
+  [ERROR]_2014-08-01 20:19:39 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 20:19:39 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-08-01 20:19:39 :==========10,10=========
+  [ERROR]_2014-08-01 20:19:39 :1======
+  [ERROR]_2014-08-01 20:19:39 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-08-01 20:19:42 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-08-01 20:19:43 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406895583786', ]
+  

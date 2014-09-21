@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+        "http://struts.apache.org/dtds/struts-2.0.dtd"> 
+<struts>
+	<package name="rbac" extends="coreaction" namespace="/back">
+		<action name="finduserbyuserid" class="sysuserAction" method="findUserByUserId"/>
+		<action name="adduserinfo" class="sysuserAction" method="addUserInfo"/>
+		<action name="gettreemenuinfo" class="menuAction" method="getTreeMenuInfo"/>
+		<action name="getfirstmenuinfo" class="menuAction" method="getFirstMenuInfo"/>
+	</package>
+</struts>

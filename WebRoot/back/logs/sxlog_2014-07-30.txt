@@ -1,0 +1,21 @@
+[ERROR]_2014-07-30 22:34:46 :sysuser1.getPwd()===?aaa88e4f74b88ae1736f261e75927d1e
+  [ERROR]_2014-07-30 22:34:46 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-30 22:34:51 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-30 22:34:51 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-30 22:34:53 :==========10,10=========
+  [ERROR]_2014-07-30 22:34:53 :1======
+  [ERROR]_2014-07-30 22:34:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-30 22:34:55 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-30 22:34:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406730897994', ]
+  [ERROR]_2014-07-30 22:41:09 :==========10,10=========
+  [ERROR]_2014-07-30 22:41:09 :1======
+  [ERROR]_2014-07-30 22:41:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-30 22:41:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-30 22:41:13 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_dc' on 'class com.sx.btccoin.action.BtcAction: Error setting expression '_dc' with value ['1406731273004', ]
+  

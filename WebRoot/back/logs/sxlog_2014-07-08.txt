@@ -1,0 +1,285 @@
+[ERROR]_2014-07-08 20:55:52 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 20:55:52 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 20:55:52 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 20:55:52 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 20:55:54 :==========10,10=========
+  [ERROR]_2014-07-08 20:55:54 :1======
+  [ERROR]_2014-07-08 20:55:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 20:55:56 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 20:55:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['50', ]
+  [ERROR]_2014-07-08 21:01:00 :==========10,10=========
+  [ERROR]_2014-07-08 21:01:00 :1======
+  [ERROR]_2014-07-08 21:01:00 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:01:02 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:01:05 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['50', ]
+  [ERROR]_2014-07-08 21:02:38 :==========10,10=========
+  [ERROR]_2014-07-08 21:02:38 :1======
+  [ERROR]_2014-07-08 21:02:39 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:02:40 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:02:46 :==========10,10=========
+  [ERROR]_2014-07-08 21:02:46 :1======
+  [ERROR]_2014-07-08 21:02:46 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:03:04 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:03:47 :==========10,10=========
+  [ERROR]_2014-07-08 21:03:47 :1======
+  [ERROR]_2014-07-08 21:03:47 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:03:49 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:03:56 :==========10,10=========
+  [ERROR]_2014-07-08 21:03:56 :1======
+  [ERROR]_2014-07-08 21:03:56 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:03:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:04:26 :==========10,10=========
+  [ERROR]_2014-07-08 21:04:26 :1======
+  [ERROR]_2014-07-08 21:04:26 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:04:28 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:05:06 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:05:06 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:05:07 :==========10,10=========
+  [ERROR]_2014-07-08 21:05:07 :1======
+  [ERROR]_2014-07-08 21:05:08 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:05:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:33:51 :==========10,10=========
+  [ERROR]_2014-07-08 21:33:51 :1======
+  [ERROR]_2014-07-08 21:33:51 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:34:08 :sysuser1.getPwd()===?aaa88e4f74b88ae1736f261e75927d1e
+  [ERROR]_2014-07-08 21:34:08 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:34:12 :sysuser1.getPwd()===?aaa88e4f74b88ae1736f261e75927d1e
+  [ERROR]_2014-07-08 21:34:12 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:34:16 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:34:16 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:34:17 :==========10,10=========
+  [ERROR]_2014-07-08 21:34:17 :1======
+  [ERROR]_2014-07-08 21:34:17 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:34:20 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:34:56 :==========10,10=========
+  [ERROR]_2014-07-08 21:34:56 :1======
+  [ERROR]_2014-07-08 21:34:56 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:34:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:36:04 :==========10,10=========
+  [ERROR]_2014-07-08 21:36:04 :1======
+  [ERROR]_2014-07-08 21:36:04 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:36:05 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['51', ]
+  [ERROR]_2014-07-08 21:36:07 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:37:14 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:37:14 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:37:15 :==========10,10=========
+  [ERROR]_2014-07-08 21:37:15 :1======
+  [ERROR]_2014-07-08 21:37:15 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:48:59 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:50:28 :==========10,10=========
+  [ERROR]_2014-07-08 21:50:28 :1======
+  [ERROR]_2014-07-08 21:50:29 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:50:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:51:00 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:51:00 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:51:01 :==========10,10=========
+  [ERROR]_2014-07-08 21:51:01 :1======
+  [ERROR]_2014-07-08 21:51:01 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:51:02 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:56:45 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:56:45 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:56:46 :==========10,10=========
+  [ERROR]_2014-07-08 21:56:46 :1======
+  [ERROR]_2014-07-08 21:56:46 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:56:47 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 21:59:12 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:59:12 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 21:59:13 :==========10,10=========
+  [ERROR]_2014-07-08 21:59:13 :1======
+  [ERROR]_2014-07-08 21:59:13 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 21:59:18 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:01:32 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:01:32 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:01:32 :==========10,10=========
+  [ERROR]_2014-07-08 22:01:32 :1======
+  [ERROR]_2014-07-08 22:01:33 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:01:43 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:12:05 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:12:05 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:12:05 :==========10,10=========
+  [ERROR]_2014-07-08 22:12:05 :1======
+  [ERROR]_2014-07-08 22:12:06 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:12:08 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:13:19 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:13:19 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:13:19 :==========10,10=========
+  [ERROR]_2014-07-08 22:13:19 :1======
+  [ERROR]_2014-07-08 22:13:19 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:13:22 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:14:01 :==========10,10=========
+  [ERROR]_2014-07-08 22:14:01 :1======
+  [ERROR]_2014-07-08 22:14:01 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:14:18 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:14:18 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:14:19 :==========10,10=========
+  [ERROR]_2014-07-08 22:14:19 :1======
+  [ERROR]_2014-07-08 22:14:19 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:14:21 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:15:52 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:15:52 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:15:52 :==========10,10=========
+  [ERROR]_2014-07-08 22:15:52 :1======
+  [ERROR]_2014-07-08 22:15:52 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:15:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:17:39 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:17:39 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:17:40 :==========10,10=========
+  [ERROR]_2014-07-08 22:17:40 :1======
+  [ERROR]_2014-07-08 22:17:40 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:17:42 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:18:27 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:18:27 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:18:28 :==========10,10=========
+  [ERROR]_2014-07-08 22:18:28 :1======
+  [ERROR]_2014-07-08 22:18:28 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:18:30 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:24:32 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:24:32 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:24:33 :==========10,10=========
+  [ERROR]_2014-07-08 22:24:33 :1======
+  [ERROR]_2014-07-08 22:24:33 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:24:35 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:25:37 :==========10,10=========
+  [ERROR]_2014-07-08 22:25:37 :1======
+  [ERROR]_2014-07-08 22:25:38 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:25:39 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:25:44 :==========10,10=========
+  [ERROR]_2014-07-08 22:25:44 :1======
+  [ERROR]_2014-07-08 22:25:44 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:25:45 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:26:21 :==========10,10=========
+  [ERROR]_2014-07-08 22:26:21 :1======
+  [ERROR]_2014-07-08 22:26:21 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:26:23 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:26:51 :==========10,10=========
+  [ERROR]_2014-07-08 22:26:51 :1======
+  [ERROR]_2014-07-08 22:26:51 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:26:52 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:34:08 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:34:08 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:34:09 :==========10,10=========
+  [ERROR]_2014-07-08 22:34:09 :1======
+  [ERROR]_2014-07-08 22:34:09 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:34:11 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:34:34 :==========10,10=========
+  [ERROR]_2014-07-08 22:34:34 :1======
+  [ERROR]_2014-07-08 22:34:34 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:34:35 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:34:58 :==========10,10=========
+  [ERROR]_2014-07-08 22:34:58 :1======
+  [ERROR]_2014-07-08 22:34:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:34:59 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:53:40 :==========10,10=========
+  [ERROR]_2014-07-08 22:53:40 :1======
+  [ERROR]_2014-07-08 22:53:40 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:53:43 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:55:45 :==========10,10=========
+  [ERROR]_2014-07-08 22:55:45 :1======
+  [ERROR]_2014-07-08 22:55:45 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:55:47 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:58:49 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:58:49 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 22:58:50 :==========10,10=========
+  [ERROR]_2014-07-08 22:58:50 :1======
+  [ERROR]_2014-07-08 22:58:50 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 22:58:52 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 22:59:12 :==========10,10=========
+  [ERROR]_2014-07-08 22:59:12 :1======
+  [ERROR]_2014-07-08 22:59:12 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 23:00:20 :==========10,10=========
+  [ERROR]_2014-07-08 23:00:20 :1======
+  [ERROR]_2014-07-08 23:00:20 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 23:00:21 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 23:00:54 :==========10,10=========
+  [ERROR]_2014-07-08 23:00:54 :1======
+  [ERROR]_2014-07-08 23:00:54 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 23:49:24 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  [ERROR]_2014-07-08 23:49:26 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['51', ]
+  [ERROR]_2014-07-08 23:49:56 :sysuser1.getPwd()===?e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 23:49:56 :user1.getPwd()===e10adc3949ba59abbe56e057f20f883e
+  [ERROR]_2014-07-08 23:49:57 :==========10,10=========
+  [ERROR]_2014-07-08 23:49:57 :1======
+  [ERROR]_2014-07-08 23:49:57 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['47', ]
+  [ERROR]_2014-07-08 23:49:58 :Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'node' on 'class com.sx.rbac.action.MenuAction: Error setting expression 'node' with value ['48', ]
+  
